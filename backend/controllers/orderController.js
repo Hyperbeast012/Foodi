@@ -4,7 +4,7 @@ import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const placeOrder = async (req, res) => {
-const frontend_url =   "http://localhost:5173"
+const frontend_url =   "https://foodi-1-td86.onrender.com/"
 
     try {
        
